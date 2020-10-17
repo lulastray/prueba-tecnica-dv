@@ -1,5 +1,11 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section></section>
 </template>
+
+<script>
+export default {
+  name: "UserDetail",
+};
+</script>
+
+<style></style>

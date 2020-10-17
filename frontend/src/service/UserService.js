@@ -1,10 +1,9 @@
-const BASE_URL = process.env.VUE_APP_API_URL
+const BASE_URL = process.env.VUE_APP_API_URL;
 
 const UserService = {
   async findAll() {
     return await fetch(`${BASE_URL}/`, {
       method: "GET",
-    
     });
   },
 
@@ -18,4 +17,4 @@ const UserService = {
   },
 };
 
-export default UserService
+export default UserService;
