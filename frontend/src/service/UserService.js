@@ -9,11 +9,11 @@ const UserService = {
 
   async findOne(id) {
     return (
-      await fetch(`${BASE_URL}/${id}`),
+      await fetch(`${BASE_URL}/${id}`,
       {
         method: "GET",
       }
-    );
+    ));
   },
 };
 
