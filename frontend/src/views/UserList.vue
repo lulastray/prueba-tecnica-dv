@@ -1,15 +1,15 @@
 <template>
   <main class="container">
-    <div class="card">
-      <h5 class="card-header">Users List</h5>
-      <div class="card-body">
+    <div class="card mt-5">
+      <h5 class="card-header bk-color">Users List</h5>
+      <div class="card-body table-responsive">
         <table class="table table-hover">
           <thead>
             <tr>
               <th scope="col">id</th>
               <th scope="col">Name</th>
               <th scope="col">Group</th>
-              <th scope="col">Rol</th>
+              <th scope="col">Role</th>
               <th scope="col">Permissions</th>
             </tr>
           </thead>
